@@ -12,7 +12,8 @@
     },
     "scripts": {},
     "dependencies": {
-        "@anomaly/streams-platform": "^1.0.0"
+        "@anomaly/streams-platform": "^1.0.0",
+        "@sindresorhus/slugify": "^0.9.1"
     },
     "devDependencies": {
     }

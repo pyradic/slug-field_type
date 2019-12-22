@@ -76,11 +76,11 @@ class SlugFieldType extends FieldType
     public function attributes(array $attributes = [])
     {
         return array_merge(parent::attributes(), [
-            'type' => 'text',
-            'data-type' => $this->config('type'),
-            'data-slugify' => $this->config('slugify'),
-            'data-lowercase' => $this->config('lowercase'),
-            'data-always_slugify' => $this->config('always_slugify'),
+//            'type' => 'text',
+            'type' => $this->config('type'),
+            'slugify' => $this->config('slugify'),
+            'lowercase' => $this->config('lowercase'),
+            'always-slugify' => $this->config('always_slugify'),
         ], $attributes);
     }
 }

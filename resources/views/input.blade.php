@@ -8,9 +8,9 @@
         </span>
     @endif
 
-    <input {!! html_attributes($fieldType->attributes()) !!}>
+    <py-slug-field-type  {!! html_attributes($fieldType->attributes()) !!}></py-slug-field-type>
 
-    @if ($fieldType->config('suffix'))    
+    @if ($fieldType->config('suffix'))
         <span class="input-group-addon">
             {{ $fieldType->config('suffix') }}
         </span>
